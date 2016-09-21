@@ -2,16 +2,16 @@
 require File.expand_path('../lib/audiojs/rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Alif Rachmawadi"]
-  gem.email         = ["subosito@gmail.com"]
+  gem.authors       = ["syossan27"]
+  gem.email         = ["wisdom1027@gmail.com"]
   gem.description   = %q{Audio.js on Rails Asset Pipeline}
   gem.summary       = %q{audio.js is a drop-in javascript library that allows HTML5's <audio> tag to be used anywhere.}
-  gem.homepage      = "https://github.com/subosito/audiojs-rails"
+  gem.homepage      = "https://github.com/subosito/rails-audiojs"
   gem.licenses      = ["MIT"]
 
   gem.files         = Dir["{lib,vendor}/**/*"] + ["Rakefile", "README.markdown"]
   gem.test_files    = Dir["test/**/*"]
-  gem.name          = "audiojs-rails"
+  gem.name          = "rails-audiojs"
   gem.require_paths = ["lib"]
   gem.version       = Audiojs::Rails::VERSION
 
