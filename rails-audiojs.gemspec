@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["wisdom1027@gmail.com"]
   gem.description   = %q{Audio.js on Rails Asset Pipeline}
   gem.summary       = %q{audio.js is a drop-in javascript library that allows HTML5's <audio> tag to be used anywhere.}
-  gem.homepage      = "https://github.com/subosito/rails-audiojs"
+  gem.homepage      = "https://github.com/syossan27/rails-audiojs"
   gem.licenses      = ["MIT"]
 
   gem.files         = Dir["{lib,vendor}/**/*"] + ["Rakefile", "README.markdown"]
