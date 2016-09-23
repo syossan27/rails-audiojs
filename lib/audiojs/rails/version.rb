@@ -1,5 +1,5 @@
-module Audiojs
-  module Rails
-    VERSION = "0.0.1"
+module Rails
+  module Audiojs
+    VERSION = "0.0.2"
   end
 end

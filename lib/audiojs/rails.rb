@@ -1,7 +1,7 @@
-require "audiojs/rails/version"
+require "rails/audiojs/version"
 
-module Audiojs
-  module Rails
+module Rails
+  module Audiojs
     class Engine < ::Rails::Engine
       initializer 'audiojs.assets.precompile' do |app|
         app.config.assets.precompile += %w( audiojs-player-graphics.gif audiojs.swf )

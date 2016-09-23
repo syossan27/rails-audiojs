@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = Dir["test/**/*"]
   gem.name          = "rails-audiojs"
   gem.require_paths = ["lib"]
-  gem.version       = Audiojs::Rails::VERSION
+  gem.version       = Rails::Audiojs::VERSION
 
   gem.add_dependency 'railties', '>= 3.1'
   gem.add_development_dependency 'vendorer'
